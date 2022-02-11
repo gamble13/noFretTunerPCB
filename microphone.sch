@@ -16,14 +16,14 @@ $EndDescr
 $Comp
 L Device:Microphone_Condenser MK?
 U 1 1 62091144
-P 1250 3300
+P 7950 1800
 AR Path="/62091144" Ref="MK?"  Part="1" 
 AR Path="/6207A6E4/62091144" Ref="MK?"  Part="1" 
-F 0 "MK?" H 1380 3346 50  0000 L CNN
-F 1 "Microphone_Condenser" H 1380 3255 50  0000 L CNN
-F 2 "" V 1250 3400 50  0001 C CNN
-F 3 "~" V 1250 3400 50  0001 C CNN
-	1    1250 3300
+F 0 "MK?" H 8080 1846 50  0000 L CNN
+F 1 "Microphone_Condenser" H 8080 1755 50  0000 L CNN
+F 2 "" V 7950 1900 50  0001 C CNN
+F 3 "~" V 7950 1900 50  0001 C CNN
+	1    7950 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -434,37 +434,37 @@ Wire Wire Line
 $Comp
 L LTC2941IMS8E:LTC2941IMS8EPBF U4
 U 1 1 620B2A23
-P 5100 4600
-F 0 "U4" H 5900 4865 50  0000 C CNN
-F 1 "LTC2941IMS8EPBF" H 5900 4774 50  0000 C CNN
-F 2 "Analog_Devices-MS8E-8-05-08-1662-0-K-*" H 5100 5000 50  0001 L CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2941.pdf" H 5100 5100 50  0001 L CNN
-F 4 "+85°C" H 5100 5200 50  0001 L CNN "ambient temperature range high"
-F 5 "-40°C" H 5100 5300 50  0001 L CNN "ambient temperature range low"
-F 6 "No" H 5100 5400 50  0001 L CNN "automotive"
-F 7 "IC" H 5100 5500 50  0001 L CNN "category"
-F 8 "Integrated Circuits (ICs)" H 5100 5600 50  0001 L CNN "device class L1"
-F 9 "Power Management ICs" H 5100 5700 50  0001 L CNN "device class L2"
-F 10 "Battery Management" H 5100 5800 50  0001 L CNN "device class L3"
-F 11 "IC BATT MON LI-ION 1CELL 8MSOP" H 5100 5900 50  0001 L CNN "digikey description"
-F 12 "LTC2941IMS8E#PBF-ND" H 5100 6000 50  0001 L CNN "digikey part number"
-F 13 "1.1mm" H 5100 6100 50  0001 L CNN "height"
-F 14 "Yes" H 5100 6200 50  0001 L CNN "lead free"
-F 15 "a6f46a161b9bb6d9" H 5100 6300 50  0001 L CNN "library id"
-F 16 "Analog Devices" H 5100 6400 50  0001 L CNN "manufacturer"
-F 17 "5.5V" H 5100 6500 50  0001 L CNN "max supply voltage"
-F 18 "2.7V" H 5100 6600 50  0001 L CNN "min supply voltage"
-F 19 "Battery Gas Gauge, Li-ion, 5.5V, MSOP-8" H 5100 6700 50  0001 L CNN "mouser description"
-F 20 "584-LTC2941IMS8E#PBF" H 5100 6800 50  0001 L CNN "mouser part number"
-F 21 "70uA" H 5100 6900 50  0001 L CNN "nominal supply current"
-F 22 "1" H 5100 7000 50  0001 L CNN "number of cells"
-F 23 "1" H 5100 7100 50  0001 L CNN "number of outputs"
-F 24 "MSOP8" H 5100 7200 50  0001 L CNN "package"
-F 25 "Yes" H 5100 7300 50  0001 L CNN "rohs"
-F 26 "0.0508mm" H 5100 7400 50  0001 L CNN "standoff height"
-F 27 "+85°C" H 5100 7500 50  0001 L CNN "temperature range high"
-F 28 "-40°C" H 5100 7600 50  0001 L CNN "temperature range low"
-	1    5100 4600
+P 2500 4700
+F 0 "U4" H 3300 4965 50  0000 C CNN
+F 1 "LTC2941IMS8EPBF" H 3300 4874 50  0000 C CNN
+F 2 "Analog_Devices-MS8E-8-05-08-1662-0-K-*" H 2500 5100 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC2941.pdf" H 2500 5200 50  0001 L CNN
+F 4 "+85°C" H 2500 5300 50  0001 L CNN "ambient temperature range high"
+F 5 "-40°C" H 2500 5400 50  0001 L CNN "ambient temperature range low"
+F 6 "No" H 2500 5500 50  0001 L CNN "automotive"
+F 7 "IC" H 2500 5600 50  0001 L CNN "category"
+F 8 "Integrated Circuits (ICs)" H 2500 5700 50  0001 L CNN "device class L1"
+F 9 "Power Management ICs" H 2500 5800 50  0001 L CNN "device class L2"
+F 10 "Battery Management" H 2500 5900 50  0001 L CNN "device class L3"
+F 11 "IC BATT MON LI-ION 1CELL 8MSOP" H 2500 6000 50  0001 L CNN "digikey description"
+F 12 "LTC2941IMS8E#PBF-ND" H 2500 6100 50  0001 L CNN "digikey part number"
+F 13 "1.1mm" H 2500 6200 50  0001 L CNN "height"
+F 14 "Yes" H 2500 6300 50  0001 L CNN "lead free"
+F 15 "a6f46a161b9bb6d9" H 2500 6400 50  0001 L CNN "library id"
+F 16 "Analog Devices" H 2500 6500 50  0001 L CNN "manufacturer"
+F 17 "5.5V" H 2500 6600 50  0001 L CNN "max supply voltage"
+F 18 "2.7V" H 2500 6700 50  0001 L CNN "min supply voltage"
+F 19 "Battery Gas Gauge, Li-ion, 5.5V, MSOP-8" H 2500 6800 50  0001 L CNN "mouser description"
+F 20 "584-LTC2941IMS8E#PBF" H 2500 6900 50  0001 L CNN "mouser part number"
+F 21 "70uA" H 2500 7000 50  0001 L CNN "nominal supply current"
+F 22 "1" H 2500 7100 50  0001 L CNN "number of cells"
+F 23 "1" H 2500 7200 50  0001 L CNN "number of outputs"
+F 24 "MSOP8" H 2500 7300 50  0001 L CNN "package"
+F 25 "Yes" H 2500 7400 50  0001 L CNN "rohs"
+F 26 "0.0508mm" H 2500 7500 50  0001 L CNN "standoff height"
+F 27 "+85°C" H 2500 7600 50  0001 L CNN "temperature range high"
+F 28 "-40°C" H 2500 7700 50  0001 L CNN "temperature range low"
+	1    2500 4700
 	1    0    0    -1  
 $EndComp
 Text GLabel 1700 2200 2    50   Input ~ 0
@@ -473,307 +473,307 @@ Text GLabel 1700 2350 2    50   Input ~ 0
 MIC-
 Text GLabel 6450 2150 2    50   Output ~ 0
 ADC
-Text GLabel 4250 3750 0    50   Input ~ 0
+Text GLabel 1650 3850 0    50   Input ~ 0
 5V_EXTERNAL
 $Comp
 L MCP73832T-2ACI/OT:MCP73832T-2ACI_OT U3
 U 1 1 620CF02D
-P 5250 3750
-F 0 "U3" H 5950 4015 50  0000 C CNN
-F 1 "MCP73832T-2ACI_OT" H 5950 3924 50  0000 C CNN
-F 2 "Microchip-C04-091-OT-0-F-*" H 5250 4150 50  0001 L CNN
-F 3 "http://www.mouser.com/ds/2/268/20001984g-846362.pdf" H 5250 4250 50  0001 L CNN
-F 4 "+85°C" H 5250 4350 50  0001 L CNN "ambient temperature range high"
-F 5 "-40°C" H 5250 4450 50  0001 L CNN "ambient temperature range low"
-F 6 "No" H 5250 4550 50  0001 L CNN "automotive"
-F 7 "IC" H 5250 4650 50  0001 L CNN "category"
-F 8 "Integrated Circuits (ICs)" H 5250 4750 50  0001 L CNN "device class L1"
-F 9 "Power Management ICs" H 5250 4850 50  0001 L CNN "device class L2"
-F 10 "Battery Management" H 5250 4950 50  0001 L CNN "device class L3"
-F 11 "IC LI-ION/LI-POLY CTRLR SOT23-5" H 5250 5050 50  0001 L CNN "digikey description"
-F 12 "MCP73832T-2ACI/OTCT-ND" H 5250 5150 50  0001 L CNN "digikey part number"
-F 13 "1.45mm" H 5250 5250 50  0001 L CNN "height"
-F 14 "Yes" H 5250 5350 50  0001 L CNN "lead free"
-F 15 "59a9b209d3b509b9" H 5250 5450 50  0001 L CNN "library id"
-F 16 "Microchip" H 5250 5550 50  0001 L CNN "manufacturer"
-F 17 "+125°C" H 5250 5650 50  0001 L CNN "max junction temp"
-F 18 "6V" H 5250 5750 50  0001 L CNN "max supply voltage"
-F 19 "3.75V" H 5250 5850 50  0001 L CNN "min supply voltage"
-F 20 "Battery Management Charge mgnt contr" H 5250 5950 50  0001 L CNN "mouser description"
-F 21 "579-MCP73831T-2DCIOT" H 5250 6050 50  0001 L CNN "mouser part number"
-F 22 "25-510uA" H 5250 6150 50  0001 L CNN "nominal supply current"
-F 23 "1" H 5250 6250 50  0001 L CNN "number of cells"
-F 24 "1" H 5250 6350 50  0001 L CNN "number of outputs"
-F 25 "14.5-505mA" H 5250 6450 50  0001 L CNN "output current"
-F 26 "4.2V" H 5250 6550 50  0001 L CNN "output voltage"
-F 27 "SOT23-5" H 5250 6650 50  0001 L CNN "package"
-F 28 "Yes" H 5250 6750 50  0001 L CNN "rohs"
-F 29 "+85°C" H 5250 6850 50  0001 L CNN "temperature range high"
-F 30 "-40°C" H 5250 6950 50  0001 L CNN "temperature range low"
-	1    5250 3750
+P 2650 3850
+F 0 "U3" H 3350 4115 50  0000 C CNN
+F 1 "MCP73832T-2ACI_OT" H 3350 4024 50  0000 C CNN
+F 2 "Microchip-C04-091-OT-0-F-*" H 2650 4250 50  0001 L CNN
+F 3 "http://www.mouser.com/ds/2/268/20001984g-846362.pdf" H 2650 4350 50  0001 L CNN
+F 4 "+85°C" H 2650 4450 50  0001 L CNN "ambient temperature range high"
+F 5 "-40°C" H 2650 4550 50  0001 L CNN "ambient temperature range low"
+F 6 "No" H 2650 4650 50  0001 L CNN "automotive"
+F 7 "IC" H 2650 4750 50  0001 L CNN "category"
+F 8 "Integrated Circuits (ICs)" H 2650 4850 50  0001 L CNN "device class L1"
+F 9 "Power Management ICs" H 2650 4950 50  0001 L CNN "device class L2"
+F 10 "Battery Management" H 2650 5050 50  0001 L CNN "device class L3"
+F 11 "IC LI-ION/LI-POLY CTRLR SOT23-5" H 2650 5150 50  0001 L CNN "digikey description"
+F 12 "MCP73832T-2ACI/OTCT-ND" H 2650 5250 50  0001 L CNN "digikey part number"
+F 13 "1.45mm" H 2650 5350 50  0001 L CNN "height"
+F 14 "Yes" H 2650 5450 50  0001 L CNN "lead free"
+F 15 "59a9b209d3b509b9" H 2650 5550 50  0001 L CNN "library id"
+F 16 "Microchip" H 2650 5650 50  0001 L CNN "manufacturer"
+F 17 "+125°C" H 2650 5750 50  0001 L CNN "max junction temp"
+F 18 "6V" H 2650 5850 50  0001 L CNN "max supply voltage"
+F 19 "3.75V" H 2650 5950 50  0001 L CNN "min supply voltage"
+F 20 "Battery Management Charge mgnt contr" H 2650 6050 50  0001 L CNN "mouser description"
+F 21 "579-MCP73831T-2DCIOT" H 2650 6150 50  0001 L CNN "mouser part number"
+F 22 "25-510uA" H 2650 6250 50  0001 L CNN "nominal supply current"
+F 23 "1" H 2650 6350 50  0001 L CNN "number of cells"
+F 24 "1" H 2650 6450 50  0001 L CNN "number of outputs"
+F 25 "14.5-505mA" H 2650 6550 50  0001 L CNN "output current"
+F 26 "4.2V" H 2650 6650 50  0001 L CNN "output voltage"
+F 27 "SOT23-5" H 2650 6750 50  0001 L CNN "package"
+F 28 "Yes" H 2650 6850 50  0001 L CNN "rohs"
+F 29 "+85°C" H 2650 6950 50  0001 L CNN "temperature range high"
+F 30 "-40°C" H 2650 7050 50  0001 L CNN "temperature range low"
+	1    2650 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 620DD969
-P 6950 4700
+P 4350 4800
 AR Path="/620DD969" Ref="R?"  Part="1" 
 AR Path="/6207A6E4/620DD969" Ref="R?"  Part="1" 
-F 0 "R?" H 7018 4746 50  0000 L CNN
-F 1 "100 m" H 7018 4655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6950 4700 50  0001 C CNN
-F 3 "~" H 6950 4700 50  0001 C CNN
-	1    6950 4700
+F 0 "R?" H 4418 4846 50  0000 L CNN
+F 1 "100 m" H 4418 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 4800 50  0001 C CNN
+F 3 "~" H 4350 4800 50  0001 C CNN
+	1    4350 4800
 	1    0    0    -1  
 $EndComp
-Text GLabel 7000 5000 2    50   Input ~ 0
+Text GLabel 4400 5100 2    50   Input ~ 0
 VBAT
 Wire Wire Line
-	7000 5000 6950 5000
+	4400 5100 4350 5100
 Wire Wire Line
-	6950 5000 6950 4800
-Connection ~ 6950 4800
+	4350 5100 4350 4900
+Connection ~ 4350 4900
 $Comp
 L power:GND #PWR?
 U 1 1 620E2792
-P 6800 5250
-F 0 "#PWR?" H 6800 5000 50  0001 C CNN
-F 1 "GND" H 6805 5077 50  0000 C CNN
-F 2 "" H 6800 5250 50  0001 C CNN
-F 3 "" H 6800 5250 50  0001 C CNN
-	1    6800 5250
+P 4200 5350
+F 0 "#PWR?" H 4200 5100 50  0001 C CNN
+F 1 "GND" H 4205 5177 50  0000 C CNN
+F 2 "" H 4200 5350 50  0001 C CNN
+F 3 "" H 4200 5350 50  0001 C CNN
+	1    4200 5350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6600 5200 6800 5200
+	4000 5300 4200 5300
 Wire Wire Line
-	6800 5200 6800 5250
+	4200 5300 4200 5350
 Wire Wire Line
-	6950 4600 6950 3750
-Connection ~ 6950 4600
+	4350 4700 4350 3850
+Connection ~ 4350 4700
 $Comp
 L Device:R_Small_US R?
 U 1 1 620E7314
-P 6600 4050
+P 4000 4150
 AR Path="/620E7314" Ref="R?"  Part="1" 
 AR Path="/6207A6E4/620E7314" Ref="R?"  Part="1" 
-F 0 "R?" H 6668 4096 50  0000 L CNN
-F 1 "2 k" H 6668 4005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 4050 50  0001 C CNN
-F 3 "~" H 6600 4050 50  0001 C CNN
-	1    6600 4050
+F 0 "R?" H 4068 4196 50  0000 L CNN
+F 1 "2 k" H 4068 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4000 4150 50  0001 C CNN
+F 3 "~" H 4000 4150 50  0001 C CNN
+	1    4000 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 620EBF66
-P 6600 4200
-F 0 "#PWR?" H 6600 3950 50  0001 C CNN
-F 1 "GND" H 6605 4027 50  0000 C CNN
-F 2 "" H 6600 4200 50  0001 C CNN
-F 3 "" H 6600 4200 50  0001 C CNN
-	1    6600 4200
+P 4000 4300
+F 0 "#PWR?" H 4000 4050 50  0001 C CNN
+F 1 "GND" H 4005 4127 50  0000 C CNN
+F 2 "" H 4000 4300 50  0001 C CNN
+F 3 "" H 4000 4300 50  0001 C CNN
+	1    4000 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 4150 6600 4150
+	3950 4250 4000 4250
 Wire Wire Line
-	6600 4200 6600 4150
-Connection ~ 6600 4150
+	4000 4300 4000 4250
+Connection ~ 4000 4250
 Wire Wire Line
-	6600 4600 6950 4600
+	4000 4700 4350 4700
 Wire Wire Line
-	6600 4800 6950 4800
+	4000 4900 4350 4900
 Wire Wire Line
-	6550 3750 6950 3750
+	3950 3850 4350 3850
 $Comp
 L Device:C_Small C?
 U 1 1 620F20CA
-P 4350 3850
-F 0 "C?" H 4442 3896 50  0000 L CNN
-F 1 "4.7 uF" H 4442 3805 50  0000 L CNN
-F 2 "" H 4350 3850 50  0001 C CNN
-F 3 "~" H 4350 3850 50  0001 C CNN
-	1    4350 3850
+P 1750 3950
+F 0 "C?" H 1842 3996 50  0000 L CNN
+F 1 "4.7 uF" H 1842 3905 50  0000 L CNN
+F 2 "" H 1750 3950 50  0001 C CNN
+F 3 "~" H 1750 3950 50  0001 C CNN
+	1    1750 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 620F3DFF
-P 4850 3900
-F 0 "D?" V 4889 3783 50  0000 R CNN
-F 1 "LED" V 4798 3783 50  0000 R CNN
-F 2 "" H 4850 3900 50  0001 C CNN
-F 3 "~" H 4850 3900 50  0001 C CNN
-	1    4850 3900
+P 2250 4000
+F 0 "D?" V 2289 3883 50  0000 R CNN
+F 1 "LED" V 2198 3883 50  0000 R CNN
+F 2 "" H 2250 4000 50  0001 C CNN
+F 3 "~" H 2250 4000 50  0001 C CNN
+	1    2250 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R_Small_US R?
 U 1 1 620F8B41
-P 5100 4150
+P 2500 4250
 AR Path="/620F8B41" Ref="R?"  Part="1" 
 AR Path="/6207A6E4/620F8B41" Ref="R?"  Part="1" 
-F 0 "R?" V 4895 4150 50  0000 C CNN
-F 1 "470" V 4986 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5100 4150 50  0001 C CNN
-F 3 "~" H 5100 4150 50  0001 C CNN
-	1    5100 4150
+F 0 "R?" V 2295 4250 50  0000 C CNN
+F 1 "470" V 2386 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2500 4250 50  0001 C CNN
+F 3 "~" H 2500 4250 50  0001 C CNN
+	1    2500 4250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4850 4050 4850 4150
+	2250 4150 2250 4250
 Wire Wire Line
-	4850 4150 5000 4150
+	2250 4250 2400 4250
 Wire Wire Line
-	5200 4150 5350 4150
+	2600 4250 2750 4250
 Wire Wire Line
-	5350 3750 4850 3750
+	2750 3850 2250 3850
 Wire Wire Line
-	4250 3750 4350 3750
+	1650 3850 1750 3850
 Wire Wire Line
-	4350 3750 4850 3750
-Connection ~ 4350 3750
-Connection ~ 4850 3750
+	1750 3850 2250 3850
+Connection ~ 1750 3850
+Connection ~ 2250 3850
 $Comp
 L power:GND #PWR?
 U 1 1 620FE9B5
-P 4350 4150
-F 0 "#PWR?" H 4350 3900 50  0001 C CNN
-F 1 "GND" H 4355 3977 50  0000 C CNN
-F 2 "" H 4350 4150 50  0001 C CNN
-F 3 "" H 4350 4150 50  0001 C CNN
-	1    4350 4150
+P 1750 4250
+F 0 "#PWR?" H 1750 4000 50  0001 C CNN
+F 1 "GND" H 1755 4077 50  0000 C CNN
+F 2 "" H 1750 4250 50  0001 C CNN
+F 3 "" H 1750 4250 50  0001 C CNN
+	1    1750 4250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 3950 4350 4150
-Text GLabel 4750 4800 0    50   BiDi ~ 0
+	1750 4050 1750 4250
+Text GLabel 2150 4900 0    50   BiDi ~ 0
 I2C_SCL
-Text GLabel 4750 4900 0    50   BiDi ~ 0
+Text GLabel 2150 5000 0    50   BiDi ~ 0
 I2C_SCA
 Wire Wire Line
-	5200 4800 4750 4800
+	2600 4900 2150 4900
 Wire Wire Line
-	5200 4900 4750 4900
+	2600 5000 2150 5000
 $Comp
 L Connector_Generic:Conn_01x05 J?
 U 1 1 62104ADA
-P 8450 3750
-F 0 "J?" H 8530 3792 50  0000 L CNN
-F 1 "3.3V Buck-Boost Converter" H 8530 3701 50  0000 L CNN
-F 2 "" H 8450 3750 50  0001 C CNN
-F 3 "~" H 8450 3750 50  0001 C CNN
-	1    8450 3750
+P 5850 3850
+F 0 "J?" H 5930 3892 50  0000 L CNN
+F 1 "3.3V Buck-Boost Converter" H 5930 3801 50  0000 L CNN
+F 2 "" H 5850 3850 50  0001 C CNN
+F 3 "~" H 5850 3850 50  0001 C CNN
+	1    5850 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x05 J?
 U 1 1 62106B9D
-P 8450 4700
-F 0 "J?" H 8530 4742 50  0000 L CNN
-F 1 "9V Boost Converter" H 8530 4651 50  0000 L CNN
-F 2 "" H 8450 4700 50  0001 C CNN
-F 3 "~" H 8450 4700 50  0001 C CNN
-	1    8450 4700
+P 5850 4800
+F 0 "J?" H 5930 4842 50  0000 L CNN
+F 1 "9V Boost Converter" H 5930 4751 50  0000 L CNN
+F 2 "" H 5850 4800 50  0001 C CNN
+F 3 "~" H 5850 4800 50  0001 C CNN
+	1    5850 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 621095FC
-P 7800 4950
-F 0 "#PWR?" H 7800 4700 50  0001 C CNN
-F 1 "GND" H 7805 4777 50  0000 C CNN
-F 2 "" H 7800 4950 50  0001 C CNN
-F 3 "" H 7800 4950 50  0001 C CNN
-	1    7800 4950
+P 5200 5050
+F 0 "#PWR?" H 5200 4800 50  0001 C CNN
+F 1 "GND" H 5205 4877 50  0000 C CNN
+F 2 "" H 5200 5050 50  0001 C CNN
+F 3 "" H 5200 5050 50  0001 C CNN
+	1    5200 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7800 4800 7800 4950
-Connection ~ 7800 4800
+	5200 4900 5200 5050
+Connection ~ 5200 4900
 Wire Wire Line
-	7800 4800 8150 4800
-Text GLabel 8250 4900 0    50   Output ~ 0
+	5200 4900 5550 4900
+Text GLabel 5650 5000 0    50   Output ~ 0
 9V
-Text GLabel 7700 4500 0    50   Input ~ 0
+Text GLabel 5100 4600 0    50   Input ~ 0
 Boost_EN
-Connection ~ 6950 3750
+Connection ~ 4350 3850
 $Comp
 L Device:R_Small_US R?
 U 1 1 6211DAA5
-P 7800 4700
+P 5200 4800
 AR Path="/6211DAA5" Ref="R?"  Part="1" 
 AR Path="/6207A6E4/6211DAA5" Ref="R?"  Part="1" 
-F 0 "R?" H 7868 4746 50  0000 L CNN
-F 1 "2 k" H 7868 4655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 4700 50  0001 C CNN
-F 3 "~" H 7800 4700 50  0001 C CNN
-	1    7800 4700
+F 0 "R?" H 5268 4846 50  0000 L CNN
+F 1 "2 k" H 5268 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 4800 50  0001 C CNN
+F 3 "~" H 5200 4800 50  0001 C CNN
+	1    5200 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 4700 8150 4700
+	5650 4800 5550 4800
 Wire Wire Line
-	8150 4700 8150 4800
-Connection ~ 8150 4800
+	5550 4800 5550 4900
+Connection ~ 5550 4900
 Wire Wire Line
-	8150 4800 8250 4800
+	5550 4900 5650 4900
 Wire Wire Line
-	7800 4600 7800 4500
+	5200 4700 5200 4600
 Wire Wire Line
-	7800 4500 7700 4500
+	5200 4600 5100 4600
 Wire Wire Line
-	7800 4500 8250 4500
-Connection ~ 7800 4500
+	5200 4600 5650 4600
+Connection ~ 5200 4600
 Wire Wire Line
-	8100 4600 8250 4600
+	5500 4700 5650 4700
 Wire Wire Line
-	8100 4600 8100 4300
+	5500 4700 5500 4400
 Wire Wire Line
-	8100 4300 7400 4300
+	5500 4400 4800 4400
 Wire Wire Line
-	7400 4300 7400 3750
+	4800 4400 4800 3850
 Wire Wire Line
-	6950 3750 7400 3750
-Connection ~ 7400 3750
+	4350 3850 4800 3850
+Connection ~ 4800 3850
 Wire Wire Line
-	7400 3750 8100 3750
+	4800 3850 5500 3850
 Wire Wire Line
-	8100 3750 8100 3850
+	5500 3850 5500 3950
 Wire Wire Line
-	8100 3850 8250 3850
-Connection ~ 8100 3750
+	5500 3950 5650 3950
+Connection ~ 5500 3850
 Wire Wire Line
-	8100 3750 8250 3750
+	5500 3850 5650 3850
 $Comp
 L power:+3.3V #PWR?
 U 1 1 6213EE23
-P 8050 3450
-F 0 "#PWR?" H 8050 3300 50  0001 C CNN
-F 1 "+3.3V" H 8065 3623 50  0000 C CNN
-F 2 "" H 8050 3450 50  0001 C CNN
-F 3 "" H 8050 3450 50  0001 C CNN
-	1    8050 3450
+P 5450 3550
+F 0 "#PWR?" H 5450 3400 50  0001 C CNN
+F 1 "+3.3V" H 5465 3723 50  0000 C CNN
+F 2 "" H 5450 3550 50  0001 C CNN
+F 3 "" H 5450 3550 50  0001 C CNN
+	1    5450 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 3550 8050 3550
+	5650 3650 5450 3650
 Wire Wire Line
-	8050 3550 8050 3450
+	5450 3650 5450 3550
 $Comp
 L power:GND #PWR?
 U 1 1 62141C78
-P 7950 3900
-F 0 "#PWR?" H 7950 3650 50  0001 C CNN
-F 1 "GND" H 7955 3727 50  0000 C CNN
-F 2 "" H 7950 3900 50  0001 C CNN
-F 3 "" H 7950 3900 50  0001 C CNN
-	1    7950 3900
+P 5350 4000
+F 0 "#PWR?" H 5350 3750 50  0001 C CNN
+F 1 "GND" H 5355 3827 50  0000 C CNN
+F 2 "" H 5350 4000 50  0001 C CNN
+F 3 "" H 5350 4000 50  0001 C CNN
+	1    5350 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 3650 7950 3650
+	5650 3750 5350 3750
 Wire Wire Line
-	7950 3650 7950 3900
+	5350 3750 5350 4000
 $EndSCHEMATC

@@ -36,7 +36,7 @@ F 3 "" H 4150 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9050 1100 500  350 
+S 7700 700  500  350 
 U 6207A6E4
 F0 "Microphone & Bandpass Filter" 50
 F1 "microphone.sch" 50
@@ -46,7 +46,7 @@ L Connector_Generic:Conn_01x02 J1
 U 1 1 620A7E14
 P 7900 2500
 F 0 "J1" H 7980 2492 50  0000 L CNN
-F 1 "Conn_01x02" H 7980 2401 50  0000 L CNN
+F 1 "Microphone Connection" H 7980 2401 50  0000 L CNN
 F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 7900 2500 50  0001 C CNN
 F 3 "~" H 7900 2500 50  0001 C CNN
 	1    7900 2500
