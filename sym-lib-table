@@ -1,5 +1,8 @@
 (sym_lib_table
   (lib (name STM32F091RCT6)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/Stm32/2022-02-09_18-42-58.lib")(options "")(descr ""))
   (lib (name MCP73832T-2ACI/OT)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/Battery Charge Controller/eec.lib")(options "")(descr "Battery Charger"))
-  (lib (name LTC2941IMS8E)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/Battery Monitor/eec.lib")(options "")(descr "Battery Monitor"))
+  (lib (name LTC2941IMS8E)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/Battery Monitor/2022-02-11_21-57-07.lib")(options "")(descr "Battery Monitor"))
+  (lib (name noFretTuner-rescue)(type Legacy)(uri ${KIPRJMOD}/noFretTuner-rescue.lib)(options "")(descr ""))
+  (lib (name LTC2941)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/Battery Monitor Fail/eec.lib")(options "")(descr ""))
+  (lib (name DRV8825PWP)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/DRV8825PWP Motor Controller/eec.lib")(options "")(descr ""))
 )

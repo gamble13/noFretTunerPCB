@@ -15,17 +15,6 @@ Comment4 "Schematic Author: Connor Gamble"
 $EndDescr
 $Comp
 L STM32F091RCT6:STM32F091RCT6 U1
-U 1 1 62040D0D
-P 750 1100
-F 0 "U1" H 2250 1487 60  0000 C CNN
-F 1 "STM32F091RCT6" H 2250 1381 60  0000 C CNN
-F 2 "LQFP64-10x10mm" H 1650 1340 60  0001 C CNN
-F 3 "" H 750 1100 60  0000 C CNN
-	1    750  1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L STM32F091RCT6:STM32F091RCT6 U1
 U 2 1 620491EC
 P 4150 950
 F 0 "U1" H 5050 1337 60  0000 C CNN
@@ -33,23 +22,6 @@ F 1 "STM32F091RCT6" H 5050 1231 60  0000 C CNN
 F 2 "LQFP64-10x10mm" H 5050 1190 60  0001 C CNN
 F 3 "" H 4150 950 60  0000 C CNN
 	2    4150 950 
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 7700 700  500  350 
-U 6207A6E4
-F0 "Microphone & Bandpass Filter" 50
-F1 "microphone.sch" 50
-$EndSheet
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 620A7E14
-P 7900 2500
-F 0 "J1" H 7980 2492 50  0000 L CNN
-F 1 "Microphone Connection" H 7980 2401 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 7900 2500 50  0001 C CNN
-F 3 "~" H 7900 2500 50  0001 C CNN
-	1    7900 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -120,4 +92,59 @@ Wire Wire Line
 	7700 3000 7600 3000
 Wire Wire Line
 	7600 3000 7600 3050
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 620A7E14
+P 7900 2500
+F 0 "J1" H 7980 2492 50  0000 L CNN
+F 1 "Microphone Connection" H 7980 2401 50  0000 L CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 7900 2500 50  0001 C CNN
+F 3 "~" H 7900 2500 50  0001 C CNN
+	1    7900 2500
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 7700 700  500  350 
+U 6207A6E4
+F0 "Microphone & Bandpass Filter" 50
+F1 "microphone.sch" 50
+$EndSheet
+$Comp
+L STM32F091RCT6:STM32F091RCT6 U1
+U 1 1 62040D0D
+P 800 950
+F 0 "U1" H 2300 1337 60  0000 C CNN
+F 1 "STM32F091RCT6" H 2300 1231 60  0000 C CNN
+F 2 "LQFP64-10x10mm" H 1700 1190 60  0001 C CNN
+F 3 "" H 800 950 60  0000 C CNN
+	1    800  950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 623ABF0F
+P 7900 4000
+F 0 "J?" H 7980 3992 50  0000 L CNN
+F 1 "Stepper Motor Connection" H 7980 3901 50  0000 L CNN
+F 2 "" H 7900 4000 50  0001 C CNN
+F 3 "~" H 7900 4000 50  0001 C CNN
+	1    7900 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 3900 0    50   Input ~ 0
+A1
+Text GLabel 7500 4000 0    50   Input ~ 0
+A2
+Text GLabel 7500 4100 0    50   Input ~ 0
+B1
+Text GLabel 7500 4200 0    50   Input ~ 0
+B2
+Wire Wire Line
+	7500 3900 7700 3900
+Wire Wire Line
+	7500 4000 7700 4000
+Wire Wire Line
+	7500 4100 7700 4100
+Wire Wire Line
+	7500 4200 7700 4200
 $EndSCHEMATC
