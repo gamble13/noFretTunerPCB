@@ -5,4 +5,5 @@
   (lib (name noFretTuner-rescue)(type Legacy)(uri ${KIPRJMOD}/noFretTuner-rescue.lib)(options "")(descr ""))
   (lib (name LTC2941)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/Battery Monitor Fail/eec.lib")(options "")(descr ""))
   (lib (name DRV8825PWP)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/DRV8825PWP Motor Controller/eec.lib")(options "")(descr ""))
+  (lib (name STM32F091RCTx)(type Legacy)(uri "D:/School Documents/ECE 477/PCB/Libraries/Stm32/stm32f091-cache.lib")(options "")(descr "STM32 (Rick)"))
 )

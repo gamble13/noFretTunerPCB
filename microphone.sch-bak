@@ -220,27 +220,27 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 620911AD
-P 750 2000
+P 750 2200
 AR Path="/620911AD" Ref="#PWR?"  Part="1" 
 AR Path="/6207A6E4/620911AD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 750 1750 50  0001 C CNN
-F 1 "GND" H 755 1827 50  0000 C CNN
-F 2 "" H 750 2000 50  0001 C CNN
-F 3 "" H 750 2000 50  0001 C CNN
-	1    750  2000
+F 0 "#PWR?" H 750 1950 50  0001 C CNN
+F 1 "GND" H 755 2027 50  0000 C CNN
+F 2 "" H 750 2200 50  0001 C CNN
+F 3 "" H 750 2200 50  0001 C CNN
+	1    750  2200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 620911B3
-P 750 1400
+P 750 1200
 AR Path="/620911B3" Ref="#PWR?"  Part="1" 
 AR Path="/6207A6E4/620911B3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 750 1250 50  0001 C CNN
-F 1 "+3V3" H 765 1573 50  0000 C CNN
-F 2 "" H 750 1400 50  0001 C CNN
-F 3 "" H 750 1400 50  0001 C CNN
-	1    750  1400
+F 0 "#PWR?" H 750 1050 50  0001 C CNN
+F 1 "+3V3" H 765 1373 50  0000 C CNN
+F 2 "" H 750 1200 50  0001 C CNN
+F 3 "" H 750 1200 50  0001 C CNN
+	1    750  1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1139,9 +1139,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 6250 5150 6250
 Text GLabel 4300 5850 2    50   Output ~ 0
-B1
+motor_B1
 Text GLabel 4300 5950 2    50   Output ~ 0
-B2
+motor_B2
 Wire Wire Line
 	4150 5850 4300 5850
 Wire Wire Line
@@ -1149,9 +1149,9 @@ Wire Wire Line
 Wire Wire Line
 	4150 5650 4850 5650
 Text GLabel 4300 5350 2    50   Output ~ 0
-A1
+motor_A1
 Text GLabel 4300 5450 2    50   Output ~ 0
-A2
+motor_A2
 Wire Wire Line
 	4150 5450 4300 5450
 Wire Wire Line
@@ -1283,7 +1283,7 @@ Wire Wire Line
 Text GLabel 1550 6050 0    50   Input ~ 0
 motor_nFAULT
 Text GLabel 2550 5950 0    50   Input ~ 0
-nHOME
+motor_nHOME
 Wire Wire Line
 	2600 5950 2550 5950
 Connection ~ 2600 5950
@@ -1309,13 +1309,13 @@ Wire Wire Line
 	1750 6050 1550 6050
 Connection ~ 1750 6050
 Text GLabel 1550 5450 0    50   Input ~ 0
-MOTOR_STEP
+motor_STEP
 Text GLabel 1550 5550 0    50   Input ~ 0
-MOTOR_DIR
+motor_DIR
 Text GLabel 1550 5650 0    50   Input ~ 0
-MOTOR_DECAY
+motor_DECAY
 Text GLabel 1550 5750 0    50   Input ~ 0
-MOTOR_nRESET
+motor_nRESET
 Wire Wire Line
 	1550 5350 1650 5350
 $Comp
@@ -1356,4 +1356,52 @@ Wire Wire Line
 Connection ~ 1950 5750
 Wire Wire Line
 	1950 5750 2950 5750
+$Comp
+L Device:C_Small C?
+U 1 1 620B64CF
+P 900 2100
+F 0 "C?" H 992 2146 50  0000 L CNN
+F 1 "?" H 992 2055 50  0000 L CNN
+F 2 "" H 900 2100 50  0001 C CNN
+F 3 "~" H 900 2100 50  0001 C CNN
+	1    900  2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  2000 900  2000
+Connection ~ 750  2000
+Wire Wire Line
+	900  2200 750  2200
+Wire Wire Line
+	750  2000 750  2200
+Connection ~ 750  2200
+$Comp
+L Device:C_Small C?
+U 1 1 620FF427
+P 900 1300
+F 0 "C?" H 992 1346 50  0000 L CNN
+F 1 "?" H 992 1255 50  0000 L CNN
+F 2 "" H 900 1300 50  0001 C CNN
+F 3 "~" H 900 1300 50  0001 C CNN
+	1    900  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1200 750  1400
+Wire Wire Line
+	750  1200 900  1200
+Connection ~ 750  1200
+$Comp
+L power:GND #PWR?
+U 1 1 6212D9F5
+P 900 1400
+AR Path="/6212D9F5" Ref="#PWR?"  Part="1" 
+AR Path="/6207A6E4/6212D9F5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 900 1150 50  0001 C CNN
+F 1 "GND" H 905 1227 50  0000 C CNN
+F 2 "" H 900 1400 50  0001 C CNN
+F 3 "" H 900 1400 50  0001 C CNN
+	1    900  1400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
